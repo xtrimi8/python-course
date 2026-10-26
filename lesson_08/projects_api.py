@@ -29,3 +29,9 @@ class ProjectsAPI:
             json={"title": title},
             headers=self.headers
         )
+
+    def delete_project(self, project_id):
+        return requests.delete(
+            f"{self.url}/{project_id}",
+            headers=self.headers
+        )
