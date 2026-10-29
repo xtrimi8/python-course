@@ -220,3 +220,7 @@ __marimo__/
 # Confing
 lesson_08/config.py
 lesson_09/db_config.py
+
+# Allure
+allure-results/
+allure-report/
